@@ -57,3 +57,9 @@ lib/
 flutter pub get
 flutter run
 ```
+
+## 👨‍💻 Author
+
+**Shubham Mutkule**
+
+Built with ❤️ using Flutter and Dart.
