@@ -1,48 +1,122 @@
-# Miscellaneous
+# =========================================================
+
+# Flutter / Dart
+
+# =========================================================
+
+.dart_tool/
+.pub/
+.pub-cache/
+build/
+coverage/
+
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+
+# Flutter generated files
+
+**/doc/api/
+**/ios/Flutter/.last_build_id
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+
+# Widget Preview
+
+.widget_preview/
+
+# =========================================================
+
+# Dart
+
+# =========================================================
+
 *.class
 *.log
 *.pyc
 *.swp
-.DS_Store
-.atom/
-.build/
-.buildlog/
-.history
-.svn/
-.swiftpm/
-migrate_working_dir/
 
-# IntelliJ related
+# =========================================================
+
+# IDE / Editors
+
+# =========================================================
+
+# IntelliJ / Android Studio
+
 *.iml
 *.ipr
 *.iws
 .idea/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
+# VS Code
 
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
-/coverage/
+# Keep .vscode if you want to share launch/settings files.
 
-# Symbolication related
+# Uncomment the following if you want to ignore the entire folder:
+
+# .vscode/
+
+# =========================================================
+
+# Operating System
+
+# =========================================================
+
+.DS_Store
+Thumbs.db
+
+# =========================================================
+
+# Build / Generated
+
+# =========================================================
+
+.build/
+.buildlog/
+.history/
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# =========================================================
+
+# Flutter Symbols / Obfuscation
+
+# =========================================================
+
 app.*.symbols
-
-# Obfuscation related
 app.*.map.json
 
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+# =========================================================
 
-# Widget Preview related
-.widget_preview/
+# Firebase / Local Configuration
+
+# =========================================================
+
+# Uncomment these ONLY if you don't want to commit them:
+
+# google-services.json
+
+# GoogleService-Info.plist
+
+# =========================================================
+
+# Environment / Secrets
+
+# =========================================================
+
+.env
+.env.*
+!.env.example
+
+# =========================================================
+
+# Local Configuration
+
+# =========================================================
+
+*.local
+local.properties
+EOF
